@@ -9,4 +9,7 @@ vendor
 # Compiled CSS and JS
 public/css/*
 public/js/*.min*
+
+# Caches
 .sass-cache
+twig_cache
