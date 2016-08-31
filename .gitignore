@@ -9,3 +9,4 @@ vendor
 # Compiled CSS and JS
 public/css/*
 public/js/*.min*
+.sass-cache
