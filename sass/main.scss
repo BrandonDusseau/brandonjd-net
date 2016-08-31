@@ -1,0 +1,207 @@
+@import 'https://fonts.googleapis.com/css?family=Crimson+Text:400,400i|Source+Sans+Pro:300,400';
+@import "fawesome.scss";
+@import "compass/reset";
+
+$fonts-sans : "Source Sans Pro", "Helvetica", "Arial", sans-serif;
+$fonts-serif : "Crimson Text", Georgia, serif;
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: $fonts-sans;
+	height: 100%;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before,
+a[href*="//"]:after
+{
+	font-family: "brandonjd";
+	font-style: normal;
+	font-weight: normal;
+	speak: none;
+	display: inline-block;
+	text-decoration: inherit;
+	width: 1em;
+	margin-right: .2em;
+	text-align: center;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1em;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a[href*="//"]:after {
+ font-size: 0.75em;
+ margin-left: 0.2em;
+}
+
+main {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	margin: auto;
+	min-height: 100%;
+}
+
+aside.sidebar {
+	flex: 0 0 150px;
+	padding: 0 2rem;
+	padding-top: 2.5rem;
+	min-height: 100%;
+	background-color: #f8f8f8;
+
+	.home-banner {
+		margin-bottom: 1.6rem;
+		overflow: hidden;
+
+		img {
+				width: 150px;
+				height: 150px;
+		}
+	}
+
+	.sidebar-content {
+		padding: 0 0.25rem;
+	}
+
+	.sidebar-title {
+		font-size: 1.6rem;
+		margin-bottom: 1.8rem;
+	}
+
+	nav {
+		li {
+			margin-bottom: 1rem;
+		}
+
+		a:link, a:visited {
+			color: #2d97c0;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		a[class^="icon-"]:hover:before,
+		a[href*="//"]:after {
+			text-decoration: none;
+		}
+
+		[class^="icon-"]:before {
+			margin-right: 0.3em;
+		}
+	}
+}
+
+article {
+	flex: 0 1 auto;
+	font-family: $fonts-serif;
+	width: 45rem;
+	margin-top: 2.5rem;
+	padding: 0 2.4rem;
+
+	h1 {
+		font-family: $fonts-sans;
+		font-size: 3em;
+		font-weight: 300;
+		margin-bottom: 0.5em;
+	}
+
+	p {
+		font-size: 1.2em;
+		margin-bottom: 0.8em;
+		line-height: 125%;
+	}
+}
+
+@media (max-width: 840px) {
+	aside.sidebar {
+		flex-basis: 60px;
+		max-width: 60px;
+		padding: 0 1rem;
+		padding-top: 1rem;
+		text-align: center;
+		overflow: visible;
+
+		.sidebar-fixed {
+			position: fixed;
+		}
+
+		.home-banner img {
+			height: 60px;
+			width: 60px;
+		}
+
+		.sidebar-title {
+			display: none;
+		}
+
+		nav {
+			overflow: visible;
+			font-size: 150%;
+
+			ul {
+				width: 1em;
+				margin: auto;
+			}
+
+			li {
+				overflow: hidden;
+				cursor: pointer;
+				height: 1.1em;
+				max-width: 1.1em;
+				transition: max-width 0.1s ease-out;
+
+				a:before {
+					margin: 0;
+				}
+
+				a:link, a:visited {
+					color: #004f6d;
+					display: block;
+				}
+			}
+
+			li:hover {
+				background: #004f6d;
+				padding: 0.3rem;
+				padding-bottom: 0.2rem;
+				margin: -0.3rem;
+				margin-right: 0;
+				margin-bottom: 0.8rem;
+				overflow: visible;
+				border-radius: 5px;
+				display: inline-block;
+				max-width: 300px;
+				transition: max-width 0.1s ease-in;
+
+				a {
+					display: block;
+					visibility: visible;
+					color: #FFF;
+				}
+
+				a:before {
+					margin-right: 0.3em;
+				}
+			}
+
+			a {
+				visibility: hidden;
+				white-space: nowrap;
+			}
+
+			a:before {
+				visibility: visible;
+			}
+
+			a:hover {
+				text-decoration: none;
+			}
+		}
+	}
+}

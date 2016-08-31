@@ -1,0 +1,11 @@
+# Nasty operating system files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Composer
+vendor
+
+# Compiled CSS and JS
+public/css/*
+public/js/*.min*

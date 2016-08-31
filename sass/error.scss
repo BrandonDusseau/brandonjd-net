@@ -1,0 +1,30 @@
+@import 'https://fonts.googleapis.com/css?family=PT+Sans';
+@import "compass/reset";
+
+body {
+	font-family: "PT Sans";
+	text-align: center;
+	background-color: #004f6d;
+	color: #fff;
+	font-size: 23px;
+	padding-top: 100px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+	width: 550px;
+	margin: auto;
+}
+
+h1 {
+	text-shadow: 2px 2px 2px #444;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	text-transform: small-caps;
+	font-size: 120px;
+}
+
+.expl {
+	color: #077ba7;
+	margin-top: 15px;
+}
