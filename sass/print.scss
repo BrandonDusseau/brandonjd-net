@@ -1,5 +1,41 @@
 @import "main.scss";
+@import "compass/css3/transform";
+
+main {
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+}
 
 aside.sidebar {
-	display: none;
+	flex: 0 0 60px;
+	padding: 1rem 2.4rem;
+	background: transparent;
+
+	.home-banner {
+		display: inline-block;
+		float: left;
+		margin-right: 0.8em;
+
+		img {
+			height: 60px;
+			width: 60px;
+		}
+	}
+
+	.sidebar-content {
+		display: inline-block;
+	}
+
+	.sidebar-title {
+		font-size: 2em;
+		margin-top: 0.8rem;
+	}
+
+	nav {
+		display: none;
+	}
+}
+
+article {
+	margin-top: 0.5rem;
 }
