@@ -1,10 +1,16 @@
 ---
 layout: page
-title: "Lorem Ipsum Dolor Sit Amet"
+heading: "Welcome"
 ---
+_My name is Brandon, pleased to meet you!_
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis odio. Proin mi lacus, feugiat nec egestas vel, porttitor ac tellus. Quisque in porta turpis, a consequat augue. In mollis, dui et blandit tincidunt, lorem lectus tristique magna, sed fermentum magna erat lobortis augue. Duis at viverra urna, sit amet aliquet mauris. Sed sem ante, malesuada vitae diam egestas, tempor vestibulum risus. Proin luctus id lectus vel pellentesque. Aliquam ipsum purus, convallis sit amet dignissim vitae, venenatis non massa. Proin fermentum justo metus, non fermentum neque efficitur non. Ut venenatis, nisl in bibendum ornare, quam justo volutpat sapien, a facilisis justo nibh at turpis. Nunc sed erat vel massa posuere lacinia eu et massa.
+I am a professional Software Engineer, currently working as a frontend and backend web developer at [Barracuda Networks](http://www.barracuda.com/). I specialize in web technologies, but I have a passion for all things programming.
 
-Aenean venenatis neque vitae mi sagittis maximus. Sed tempus vestibulum gravida. Nunc condimentum dapibus dui, eget commodo nisl gravida quis. Praesent tincidunt enim sed eros congue volutpat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus in cursus mi, lacinia elementum nibh. Nunc tincidunt massa porttitor nisi suscipit aliquet. Praesent orci magna, vestibulum eu est nec, ultrices laoreet urna. Suspendisse maximus sodales posuere. Morbi ornare sagittis purus et maximus. Morbi non arcu finibus, sollicitudin quam vitae, blandit libero.
+In 2015 I graduated from Michigan Technological University, where I studied Computer Science. Despite only being
+in the work force for a little while, I have been playing with code since somewhere around 2006. I've
+written a number of desktop and web applications, most of which you can find on my [portfolio page](/portfolio). PHP has been my primary programming language for several years, but I also enjoy dabbling in .NET languages,
+JavaScript, and C/C++, among a few others.
 
-Suspendisse pretium justo sit amet dignissim vulputate. Integer posuere luctus nibh, vitae viverra est. Sed ornare risus quis eros auctor, vel pellentesque nibh consequat. Nullam dapibus sodales nibh nec maximus. Pellentesque nibh tellus, mattis vitae risus vel, facilisis sagittis lorem. Nullam ac quam quis massa pulvinar elementum vel eu ex. Maecenas hendrerit, diam et luctus lacinia, ante leo pharetra sapien, et lacinia lorem arcu non lorem. Quisque in augue dolor. Donec fringilla ex nec pharetra finibus.
+Besides programming, I enjoy several other hobbies including photography, computer repair, video production,
+tinkering with electronics, and most recently biking. If you'd like to see my photographs, you can visit my
+[DeviantArt profile](http://turaiel.deviantart.com/).

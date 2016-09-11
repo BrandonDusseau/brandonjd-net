@@ -1,3 +1,2 @@
-destination: "public"
-source: "src"
-include: ["static"]
+destination: public
+source: src
