@@ -7,11 +7,8 @@ Desktop.ini
 public/*
 
 # Compiled CSS and JS
-static/*
-!static/js/*
-!static/img/*
-!static/font/*
-static/js/*.min*
+src/css/*
+src/js/*.min*
 
 # Caches
 .sass-cache

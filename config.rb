@@ -1,8 +1,8 @@
 require 'compass/import-once/activate'
 sass_dir = "sass"
-css_dir = "static/css"
-images_dir = "static/img"
-javascripts_dir = "static/js"
+css_dir = "src/css"
+images_dir = "src/img"
+javascripts_dir = "src/js"
 output_style = :compressed
 relative_assets = true
 line_comments = false

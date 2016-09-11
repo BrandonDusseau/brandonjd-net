@@ -1,11 +1,7 @@
-+++
-title = "Lorem Ipsum Dolor Sit Amet"
-description = "Aenean venenatis neque vitae mi sagittis maximus."
-date = "2016-08-06"
-categories = []
-url = "/"
-slug = "home"
-+++
+---
+layout: page
+title: "Lorem Ipsum Dolor Sit Amet"
+---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis odio. Proin mi lacus, feugiat nec egestas vel, porttitor ac tellus. Quisque in porta turpis, a consequat augue. In mollis, dui et blandit tincidunt, lorem lectus tristique magna, sed fermentum magna erat lobortis augue. Duis at viverra urna, sit amet aliquet mauris. Sed sem ante, malesuada vitae diam egestas, tempor vestibulum risus. Proin luctus id lectus vel pellentesque. Aliquam ipsum purus, convallis sit amet dignissim vitae, venenatis non massa. Proin fermentum justo metus, non fermentum neque efficitur non. Ut venenatis, nisl in bibendum ornare, quam justo volutpat sapien, a facilisis justo nibh at turpis. Nunc sed erat vel massa posuere lacinia eu et massa.
 
