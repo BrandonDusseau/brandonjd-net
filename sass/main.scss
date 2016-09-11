@@ -14,6 +14,18 @@ body {
 	height: 100%;
 }
 
+i, em {
+	font-style: italic;
+}
+
+b, strong {
+	font-weight: bold;
+}
+
+u {
+	text-decoration: underline;
+}
+
 [class^="icon-"]:before, [class*=" icon-"]:before,
 a[href*="//"]:after
 {
@@ -115,6 +127,12 @@ article {
 		font-size: 1.2em;
 		margin-bottom: 0.8em;
 		line-height: 125%;
+	}
+
+	blockquote {
+		font-style: italic;
+		margin-left: 50px;
+		font-size: 1.0em;
 	}
 }
 
