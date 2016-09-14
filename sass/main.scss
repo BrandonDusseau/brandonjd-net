@@ -120,16 +120,41 @@ article {
 	width: 45rem;
 	margin-top: 2.5rem;
 	padding: 0 2.4rem;
+	font-size: 1.2em;
 
 	h1 {
 		font-family: $fonts-sans;
-		font-size: 3em;
+		font-size: 2.5em;
 		font-weight: 300;
 		margin-bottom: 0.5em;
 	}
 
+	h2 {
+		font-weight: bold;
+		font-size: 1.3em;
+		margin-bottom: 1rem;
+	}
+
+	ul, ol {
+		list-style-position: outside;
+		margin-left: 2.7rem;
+		margin-bottom: 1.2em;
+	}
+
+	ul {
+		list-style-type: square;
+	}
+
+	li {
+		padding-left: 0.5rem;
+	}
+
+	li:not(:last-of-type)
+	{
+		margin-bottom: 0.5em;
+	}
+
 	p {
-		font-size: 1.2em;
 		margin-bottom: 0.8em;
 		line-height: 125%;
 	}
@@ -137,7 +162,7 @@ article {
 	blockquote {
 		font-style: italic;
 		margin-left: 50px;
-		font-size: 1.0em;
+		font-size: 0.8em;
 	}
 
 	a:link {
