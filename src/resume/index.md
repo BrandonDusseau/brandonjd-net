@@ -11,12 +11,14 @@ improve my skills every day.
 
 ## Work Experience ##
 
- * __Barracuda Networks &bull; May 2014 &mdash; Present &bull; Ann Arbor, MI__<br>
+ * __Software Engineer__<br>
+   _Barracuda Networks &bull; May 2014 &mdash; Present &bull; Ann Arbor, MI_<br>
    Developed and maintained code for the Barracuda Backup and Barracuda Cloud-to-Cloud Backup user interfaces and
 	 backends, and implemented a RESTful PHP-based API using Laravel.
 
- * __Mobile App Server-Side Developer &bull; Trinity Innovations &bull; Houghton, MI__<br>
-   Develop and maintain server-side API and background operations for iOS mobile app.
+ * __Mobile App Server-Side Developer__<br>
+   _Trinity Innovations &bull; December 2011 &mdash; November 2012 &bull; Houghton, MI_<br>
+   Developed and maintained server-side API and background operations for an iOS mobile app.
 
 
 ## Education ##

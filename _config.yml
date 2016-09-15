@@ -1,2 +1,6 @@
 destination: public
 source: src
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/

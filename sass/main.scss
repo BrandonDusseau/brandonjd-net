@@ -1,9 +1,11 @@
-@import 'https://fonts.googleapis.com/css?family=Crimson+Text:400,400i|Source+Sans+Pro:300,400';
+@import 'https://fonts.googleapis.com/css?family=Crimson+Text:400,400i|Source+Sans+Pro:300,400|Open+Sans:400,400i,700';
 @import "fawesome.scss";
 @import "compass/reset";
+@import "compass/css3/transform";
 
 $fonts-sans : "Source Sans Pro", "Helvetica", "Arial", sans-serif;
-$fonts-serif : "Crimson Text", Georgia, serif;
+/*$fonts-serif : "Crimson Text", Georgia, serif;*/
+$fonts-serif : "Open Sans", "Helvetica", "Arial", sans-serif;
 
 html, body {
 	height: 100%;
@@ -120,13 +122,19 @@ article {
 	width: 45rem;
 	margin-top: 2.5rem;
 	padding: 0 2.4rem;
-	font-size: 1.2em;
+	padding-bottom: 2.5rem;
+	font-size: 1.0em;
+	line-height: 125%;
+
+	h1, h2, h3, h4, h5, h6 {
+		line-height: 100%;
+	}
 
 	h1 {
 		font-family: $fonts-sans;
-		font-size: 2.5em;
+		font-size: 3.0em;
 		font-weight: 300;
-		margin-bottom: 0.5em;
+		margin-bottom: 0.6em;
 	}
 
 	h2 {
@@ -156,7 +164,6 @@ article {
 
 	p {
 		margin-bottom: 0.8em;
-		line-height: 125%;
 	}
 
 	blockquote {
@@ -167,6 +174,62 @@ article {
 
 	a:link {
 		color: #2d97c0;
+	}
+
+	.portfolio-images {
+		float: left;
+		width: 175px;
+		margin-right: 0.5rem;
+		margin-bottom: 0.5rem;
+
+		img {
+			height: 40px;
+			width: initial;
+		}
+
+		a:first-of-type img {
+			display: block;
+			margin: auto;
+			margin-bottom: 0.4em;
+			height: 175px;
+			width: initial;
+		}
+
+		a:last-of-type img {
+			margin-bottom: 0;
+		}
+	}
+
+	.project-heading {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-between;
+		align-items: center;
+		overflow: hidden;
+		background-color: #eee;
+		padding: 0.4rem;
+		margin-bottom: 0.6em;
+
+		.project-heading-text {
+			flex: 0 1 auto;
+		}
+
+		.project-heading-button {
+			flex: 1 0 auto;
+			padding-left: 0.4rem;
+			text-align: right;
+
+			a {
+				background-color: #004f6d;
+				display: inline-block;
+				padding: 0.4rem;
+				color: #fff;
+				text-decoration: none;
+				font-family: $fonts-sans;
+				border-radius: 5px;
+				border: 1px solid #004060;
+			}
+		}
 	}
 }
 
