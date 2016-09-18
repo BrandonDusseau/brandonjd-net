@@ -1,0 +1,64 @@
+{%
+	assign custom_head =
+	'<link rel="stylesheet" type="text/css" href="/css/lightbox.css">
+		<script type="text/javascript" src="/js/jquery-3.1.0.min.js"></script>
+		<script type="text/javascript" src="/js/lightbox-2.6.min.js"></script>'
+%}
+{% include header.html %}
+<article>
+		<header>
+			<h1>{% if page.heading %}{{ page.heading }}{% else %}{{ page.title }}{% endif %}</h1>
+		</header>
+
+		{{ content }}
+
+		{% assign projects = site.projects | sort: "order","last" | reverse %}
+
+		{% for project in projects %}
+		<section class="project-section">
+				<div class="project-heading">
+					{% if project.images %}
+						{% for image in project.images limit:1 %}
+						<a class="project-heading-preview" href="/img/projects/full/{{ image.file }}" title="{{ image.desc }}" alt="{{ image.desc }}" data-lightbox="{{ project.id }}">
+							<img src="/img/projects/thumbs/{{ image.file }}" alt="{{ image.desc }}">
+						</a>
+						{% endfor %}
+					{% endif %}
+
+					<div class="project-heading-text">
+						<header><h2>{{ project.title }}</h2></header>
+
+						{% if project.type %}
+						{{ project.type }}<br>
+						{% endif %}
+
+						{% if project.start_date %}
+						{{ project.start_date }}{% if project.start_date != project.end_date %} &ndash; {% if project.end_date %}{{ project.end_date }}{% else %}Present{% endif %}{% endif %}<br>
+						{% endif %}
+
+						{% if project.technologies %}
+						Technologies: {{ project.technologies }}<br>
+						{% endif %}
+
+						{% if project.link %}
+						<a href="{{ project.link }}">{% if project.link_title %}{{ project.link_title }}{% else %}Go to Project{% endif %}</a>
+						{% endif %}
+					</div>
+			</div>
+
+			{{ project.content }}
+
+			{% if project.images %}
+			<aside class="portfolio-images">
+				{% for image in project.images offset:1 %}
+				<a href="/img/projects/full/{{ image.file }}" title="{{ image.desc }}" alt="{{ image.desc }}" data-lightbox="{{ project.id }}">
+					<img src="/img/projects/thumbs/{{ image.file }}" alt="{{ image.desc }}">
+				</a>
+				{% endfor %}
+			</aside>
+			{% endif %}
+		</section>
+		{% if forloop.last == false %}<hr>{% endif %}
+		{% endfor %}
+</article>
+{% include footer.html %}

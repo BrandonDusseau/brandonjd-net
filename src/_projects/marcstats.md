@@ -1,5 +1,4 @@
 ---
-layout: project
 title: MARCStats
 start_date: 2009
 end_date: 2013
@@ -23,6 +22,7 @@ type: Web Application
 technologies: PHP, HTML, CSS, JavaScript
 link: http://webapps.mtr.brandonjd.net/marcstats/
 link_title: Visit mirror
+order: 6
 ---
 Each year, my old [FIRST Robotics team](http://www.monroetrojanrobotics.com/) holds an off-season competition called the Michigan Advanced Robotics Competition. MARCStats is an application designed to provide real-time statistics for teams at this event, including rankings, match scores, and team information. It includes a "television display" which can display rankings and match results in a format much like that of a television sports broadcast.
 

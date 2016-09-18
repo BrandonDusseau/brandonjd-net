@@ -18,7 +18,7 @@ body:after {
 
 /* line 20, ../sass/lightbox.sass */
 .lightbox {
-  position: absolute;
+  position: fixed;
   left: 0;
   width: 100%;
   z-index: 10000;

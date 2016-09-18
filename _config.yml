@@ -2,5 +2,5 @@ destination: public
 source: src
 collections:
   projects:
-    output: true
+    output: false
     permalink: /projects/:path/

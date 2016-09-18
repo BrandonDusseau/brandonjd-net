@@ -166,6 +166,12 @@ article {
 		margin-bottom: 0.8em;
 	}
 
+	hr {
+		border: none;
+		border-bottom: 1px solid #ddd;
+		margin: 1.5rem auto;
+	}
+
 	blockquote {
 		font-style: italic;
 		margin-left: 50px;
@@ -176,58 +182,39 @@ article {
 		color: #2d97c0;
 	}
 
-	.portfolio-images {
-		float: left;
-		width: 175px;
-		margin-right: 0.5rem;
-		margin-bottom: 0.5rem;
+	.project-section {
 
-		img {
-			height: 40px;
-			width: initial;
-		}
+		.project-heading {
+			display: flex;
+			flex-flow: row nowrap;
+			margin-bottom: 0.6em;
 
-		a:first-of-type img {
-			display: block;
-			margin: auto;
-			margin-bottom: 0.4em;
-			height: 175px;
-			width: initial;
-		}
-
-		a:last-of-type img {
-			margin-bottom: 0;
-		}
-	}
-
-	.project-heading {
-		display: flex;
-		flex-flow: row nowrap;
-		justify-content: space-between;
-		align-items: center;
-		overflow: hidden;
-		background-color: #eee;
-		padding: 0.4rem;
-		margin-bottom: 0.6em;
-
-		.project-heading-text {
-			flex: 0 1 auto;
-		}
-
-		.project-heading-button {
-			flex: 1 0 auto;
-			padding-left: 0.4rem;
-			text-align: right;
-
-			a {
-				background-color: #004f6d;
+			a.project-heading-preview {
+				flex: 0 0 auto;
 				display: inline-block;
-				padding: 0.4rem;
-				color: #fff;
-				text-decoration: none;
-				font-family: $fonts-sans;
-				border-radius: 5px;
-				border: 1px solid #004060;
+				float: left;
+				margin-right: 0.8rem;
+
+				img {
+					height: 7em;
+					width: initial;
+				}
+			}
+
+			.project-heading-text {
+				flex: 0 0 auto;
+
+				h2 {
+					margin-bottom: 0.6rem;
+				}
+			}
+		}
+
+		.portfolio-images {
+			img {
+				height: 60px;
+				width: initial;
+				margin-right: 0.15rem;
 			}
 		}
 	}

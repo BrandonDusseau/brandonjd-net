@@ -1,5 +1,4 @@
 ---
-layout: project
 title: Twokinds Website
 start_date: 2015
 images:
@@ -19,6 +18,7 @@ type: Website
 technologies: HTML5, CSS3, PHP, JavaScript
 link: http://twokinds.keenspot.com
 link_title: Visit website
+order: 8
 ---
 In 2010 I was offered a project by the artist of the Twokinds webcomic to create a new version of the website to accompany a rebranding and a move to a new publisher.
 

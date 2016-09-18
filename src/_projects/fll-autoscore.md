@@ -1,5 +1,4 @@
 ---
-layout: project
 title: FIRST Lego League Autoscore
 start_date: 2009
 end_date: 2010
@@ -12,6 +11,7 @@ images:
     desc: The score display, featuring current team positions and a game timer
 type: Desktop Application
 technologies: Visual Basic.NET, Microsoft Office Interop
+order: 1
 ---
 [FIRST Lego League](http://www.usfirst.org/roboticsprograms/fll) (FLL) is a youth robotics program targeted at middle school aged children. In the program, teams build and program Lego robots to complete tasks on an obstacle course.
 
