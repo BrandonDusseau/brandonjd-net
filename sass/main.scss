@@ -196,8 +196,10 @@ article {
 				margin-right: 0.8rem;
 
 				img {
+					display: inline-block;
 					height: 7em;
-					width: initial;
+					width: 7em;
+					overflow: hidden;
 				}
 			}
 
@@ -211,10 +213,17 @@ article {
 		}
 
 		.portfolio-images {
+			p {
+				font-size: 0.9em;
+				font-style: italic;
+			}
+
 			img {
+				display: inline-block;
 				height: 60px;
-				width: initial;
+				width: 60px;
 				margin-right: 0.15rem;
+				overflow: hidden;
 			}
 		}
 	}

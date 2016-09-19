@@ -1,25 +1,39 @@
 ---
-title: Twokinds Website
-start_date: 2015
+title: Twokinds
+start_date: 2010
 images:
   -
-    file: tk.png
-    desc: Main website, upper half
+    file: tk/newtop.png
+    desc: The current website design, top half of page.
   -
-    file: tk2.png
-    desc: Main website, lower half
+    file: tk/newbottom.png
+    desc: The current design, bottom half.
   -
-    file: tk3.png
-    desc: News page
+    file: tk/oldtop.png
+    desc: The website after a 2010 redesign, top half.
   -
-    file: tk4.png
-    desc: An early version of the website
+    file: tk/oldbottom.png
+    desc: The website after a 2010 redesign, bottom half.
+  -
+    file: tk/oldnews.png
+    desc: The news page of the website, a feature that has since been removed.
+  -
+    file: tk/original.png
+    desc: The website design just after I was brought on as the developer.
 type: Website
 technologies: HTML5, CSS3, PHP, JavaScript
 link: http://twokinds.keenspot.com
 link_title: Visit website
 order: 8
 ---
-In 2010 I was offered a project by the artist of the Twokinds webcomic to create a new version of the website to accompany a rebranding and a move to a new publisher.
+In 2010 I began working with the author of the Twokinds webcomic to make improvements to the existing website.
+Shortly after, a publishing deal was made, and the new publisher requested that the website be redesigned to make
+advertisements more visible to the viewers.
 
-For this project I chose to experiment with design and programming methods that I had not tried before. I modified aspects of the original website design to modernize and optimize the website. I've also implemented a caching mechanism to speed up page loads.
+I continued working with the author to build a new design, which was to the publisher's liking. In addition to layout
+and CSS changes, I also made improvements to the small amount existing PHP code and added new PHP code to make the
+website more dynamic and more easily maintainable. A few years later, the website design was revised to enable high
+resolution comic pages to be displayed. I took the opportunity to update the CSS and markup to use better practices.
+
+Since then, I have steadily improved upon the website as new web technologies are introduced and as I learn more about
+existing technologies. To date, I consider this website to be my best work.

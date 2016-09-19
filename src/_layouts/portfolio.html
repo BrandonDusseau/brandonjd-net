@@ -28,28 +28,32 @@
 					<div class="project-heading-text">
 						<header><h2>{{ project.title }}</h2></header>
 
-						{% if project.type %}
-						{{ project.type }}<br>
-						{% endif %}
+						<aside>
+							{% if project.type %}
+							{{ project.type }}<br>
+							{% endif %}
 
-						{% if project.start_date %}
-						{{ project.start_date }}{% if project.start_date != project.end_date %} &ndash; {% if project.end_date %}{{ project.end_date }}{% else %}Present{% endif %}{% endif %}<br>
-						{% endif %}
+							{% if project.start_date %}
+							{{ project.start_date }}{% if project.start_date != project.end_date %} &ndash; {% if project.end_date %}{{ project.end_date }}{% else %}Present{% endif %}{% endif %}<br>
+							{% endif %}
 
-						{% if project.technologies %}
-						Technologies: {{ project.technologies }}<br>
-						{% endif %}
+							{% if project.technologies %}
+							Technologies: {{ project.technologies }}<br>
+							{% endif %}
 
-						{% if project.link %}
-						<a href="{{ project.link }}">{% if project.link_title %}{{ project.link_title }}{% else %}Go to Project{% endif %}</a>
-						{% endif %}
+							{% if project.link %}
+							<a href="{{ project.link }}">{% if project.link_title %}{{ project.link_title }}{% else %}Go to Project{% endif %}</a>
+							{% endif %}
+						</aside>
 					</div>
 			</div>
 
 			{{ project.content }}
 
-			{% if project.images %}
+			{% assign imagesize = project.images | size %}
+			{% if imagesize > 1 %}
 			<aside class="portfolio-images">
+				<p>More images:</p>
 				{% for image in project.images offset:1 %}
 				<a href="/img/projects/full/{{ image.file }}" title="{{ image.desc }}" alt="{{ image.desc }}" data-lightbox="{{ project.id }}">
 					<img src="/img/projects/thumbs/{{ image.file }}" alt="{{ image.desc }}">
@@ -57,6 +61,7 @@
 				{% endfor %}
 			</aside>
 			{% endif %}
+
 		</section>
 		{% if forloop.last == false %}<hr>{% endif %}
 		{% endfor %}
