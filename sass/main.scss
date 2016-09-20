@@ -1,10 +1,9 @@
-@import 'https://fonts.googleapis.com/css?family=Crimson+Text:400,400i|Source+Sans+Pro:300,400|Open+Sans:400,400i,700';
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400|Open+Sans:400,400i,700';
 @import "fawesome.scss";
 @import "compass/reset";
 @import "compass/css3/transform";
 
 $fonts-sans : "Source Sans Pro", "Helvetica", "Arial", sans-serif;
-/*$fonts-serif : "Crimson Text", Georgia, serif;*/
 $fonts-serif : "Open Sans", "Helvetica", "Arial", sans-serif;
 
 html, body {
