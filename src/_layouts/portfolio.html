@@ -26,7 +26,11 @@
 					{% endif %}
 
 					<div class="project-heading-text">
-						<header><h2>{{ project.title }}</h2></header>
+						<header><h2>
+							{% if project.anchor %}<a href="#{{ project.anchor }}">{% endif %}
+							{{ project.title }}
+							{% if project.anchor %}</a>{% endif %}
+						</h2></header>
 
 						<aside>
 							{% if project.type %}
