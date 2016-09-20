@@ -1,4 +1,5 @@
 ---
+anchor: gluten-free-shopping
 title: Gluten Free Shopping
 start_date: 2011
 end_date: 2012

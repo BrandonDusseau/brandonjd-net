@@ -1,4 +1,5 @@
 ---
+anchor: cypher-client-manager
 title: Cypher Client Manager
 start_date: 2012
 end_date: 2012

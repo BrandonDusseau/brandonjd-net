@@ -1,4 +1,5 @@
 ---
+anchor: fll-autoscore
 title: FIRST Lego League Autoscore
 start_date: 2009
 end_date: 2010

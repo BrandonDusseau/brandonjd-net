@@ -1,4 +1,5 @@
 ---
+anchor: ical-display
 title: iCal Display
 start_date: 2015
 end_date: 2015

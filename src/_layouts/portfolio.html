@@ -15,11 +15,11 @@
 		{% assign projects = site.projects | sort: "order","last" | reverse %}
 
 		{% for project in projects %}
-		<section class="project-section">
+		<section class="project-section" {% if project.anchor %}id="{{ project.anchor }}"{% endif %}>
 				<div class="project-heading">
 					{% if project.images %}
 						{% for image in project.images limit:1 %}
-						<a class="project-heading-preview" href="/img/projects/full/{{ image.file }}" title="{{ image.desc }}" alt="{{ image.desc }}" data-lightbox="{{ project.id }}">
+						<a class="project-heading-preview" href="/img/projects/full/{{ image.file }}" title="{{ image.desc }}" alt="{{ image.desc }}" data-lightbox="{% if project.anchor %}{{ project.anchor }}{% else %}{{ project.id }}{% endif %}">
 							<img src="/img/projects/thumbs/{{ image.file }}" alt="{{ image.desc }}">
 						</a>
 						{% endfor %}
@@ -55,7 +55,7 @@
 			<aside class="portfolio-images">
 				<p>More images:</p>
 				{% for image in project.images offset:1 %}
-				<a href="/img/projects/full/{{ image.file }}" title="{{ image.desc }}" alt="{{ image.desc }}" data-lightbox="{{ project.id }}">
+				<a href="/img/projects/full/{{ image.file }}" title="{{ image.desc }}" alt="{{ image.desc }}" data-lightbox="{% if project.anchor %}{{ project.anchor }}{% else %}{{ project.id }}{% endif %}">
 					<img src="/img/projects/thumbs/{{ image.file }}" alt="{{ image.desc }}">
 				</a>
 				{% endfor %}

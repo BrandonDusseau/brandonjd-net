@@ -1,4 +1,5 @@
 ---
+anchor: schoolcheck
 title: SchoolCheck
 start_date: 2010
 end_date: 2012
@@ -9,7 +10,7 @@ images:
 type: Web Application
 technologies: PHP, HTML, CSS
 link: http://www.brandonjd.net/snow/
-link_title: Visit website
+link_title: Go to app
 order: 3
 ---
 While I was in high school, I grew tired of checking multiple sources to check for school closures during the winter.

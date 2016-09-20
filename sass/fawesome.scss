@@ -15,7 +15,7 @@
 .icon-home-1:before { content: '\e804'; } /* '' */
 .icon-folder-open:before { content: '\e805'; } /* '' */
 .icon-mail:before { content: '\e806'; } /* '' */
-.icon-link-ext:before, a[href*="//"]:after { content: '\f08e'; } /* '' */
+.icon-link-ext:before, a[href*="//"]:not([href*="brandonjd.net"]):after { content: '\f08e'; } /* '' */
 .icon-github-circled:before { content: '\f09b'; } /* '' */
 .icon-linkedin:before { content: '\f0e1'; } /* '' */
 .icon-doc-text-inv:before { content: '\f15c'; } /* '' */

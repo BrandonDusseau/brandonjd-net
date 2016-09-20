@@ -1,5 +1,6 @@
 ---
-title: Monroe Trojan Robotics Website
+anchor: monroe-trojan-robotics
+title: Monroe Trojan Robotics
 start_date: 2009
 end_date: 2012
 images:

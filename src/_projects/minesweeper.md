@@ -1,4 +1,5 @@
 ---
+anchor: minesweeper
 title: Minesweeper Classic
 start_date: 2015
 end_date: 2016

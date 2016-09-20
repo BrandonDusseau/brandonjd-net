@@ -29,7 +29,7 @@ u {
 }
 
 [class^="icon-"]:before, [class*=" icon-"]:before,
-a[href*="//"]:after
+a[href*="//"]:not([href*="brandonjd.net"]):after
 {
 	font-family: "brandonjd";
 	font-style: normal;
@@ -47,7 +47,7 @@ a[href*="//"]:after
 	-moz-osx-font-smoothing: grayscale;
 }
 
-a[href*="//"]:after {
+a[href*="//"]:not([href*="brandonjd.net"]):after {
  font-size: 0.5em;
  margin-left: 0.2em;
  text-decoration: none;
@@ -102,7 +102,7 @@ aside.sidebar {
 		}
 
 		a[class^="icon-"]:hover:before,
-		a[href*="//"]:after {
+		a[href*="//"]:not([href*="brandonjd.net"]):after {
 			text-decoration: none;
 		}
 
@@ -110,7 +110,7 @@ aside.sidebar {
 			margin-right: 0.3em;
 		}
 
-		a[href*="//"]:after {
+		a[href*="//"]:not([href*="brandonjd.net"]):after {
 		 font-size: 0.65em;
 		}
 	}
@@ -141,6 +141,7 @@ article {
 		font-weight: bold;
 		font-size: 1.3em;
 		margin-bottom: 1rem;
+		margin-top: 1.5rem;
 	}
 
 	ul, ol {
@@ -183,6 +184,9 @@ article {
 	}
 
 	.project-section {
+		h2 {
+			margin-top: 0;
+		}
 
 		.project-heading {
 			display: flex;
