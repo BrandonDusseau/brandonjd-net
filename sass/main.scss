@@ -155,6 +155,23 @@ article {
 
 	li {
 		padding-left: 0.5rem;
+
+		ul {
+			list-style: none;
+			margin-left: 0;
+			padding-left: 0.1rem;
+			margin-top: 0.5em;
+
+			li:before {
+				content: "\00BB \0020";
+				padding-right: 5px;
+			}
+
+			li {
+				padding-left: 1em;
+				text-indent: -1em;
+			}
+		}
 	}
 
 	li:not(:last-of-type)

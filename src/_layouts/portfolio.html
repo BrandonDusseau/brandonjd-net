@@ -58,11 +58,9 @@
 			{% if imagesize > 1 %}
 			<aside class="portfolio-images">
 				<p>More images:</p>
-				{% for image in project.images offset:1 %}
+				{% strip %}{% for image in project.images offset:1 %}
 				<a href="/img/projects/full/{{ image.file }}" title="{{ image.desc }}" alt="{{ image.desc }}" data-lightbox="{% if project.anchor %}{{ project.anchor }}{% else %}{{ project.id }}{% endif %}">
-					<img src="/img/projects/thumbs/{{ image.file }}" alt="{{ image.desc }}">
-				</a>
-				{% endfor %}
+					<img src="/img/projects/thumbs/{{ image.file }}" alt="{{ image.desc }}"></a>{% endfor %}{% endstrip %}
 			</aside>
 			{% endif %}
 

@@ -4,11 +4,11 @@ title: Twokinds
 start_date: 2010
 images:
   -
-    file: tk/newtop.png
-    desc: The current website design, top half of page.
+    file: tk/fullpage.png
+    desc: The current website design.
   -
-    file: tk/newbottom.png
-    desc: The current design, bottom half.
+    file: tk/darkmode.png
+    desc: The current design, with dark theme enabled.
   -
     file: tk/oldtop.png
     desc: The website after a 2010 redesign, top half.
@@ -16,16 +16,13 @@ images:
     file: tk/oldbottom.png
     desc: The website after a 2010 redesign, bottom half.
   -
-    file: tk/oldnews.png
-    desc: The news page of the website, a feature that has since been removed.
-  -
     file: tk/original.png
     desc: The website design just after I was brought on as the developer.
 type: Website
 technologies: HTML5, CSS3, PHP, JavaScript
 link: http://twokinds.keenspot.com
 link_title: Visit website
-order: 8
+order: 9
 ---
 In 2010 I began working with the author of the Twokinds webcomic to make improvements to the existing website.
 Shortly after, a publishing deal was made, and the new publisher requested that the website be redesigned to make

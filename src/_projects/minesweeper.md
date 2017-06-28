@@ -26,7 +26,7 @@ type: Web Application
 technologies: JavaScript (jQuery), CSS3, HTML5
 link: http://github.com/brandondusseau/minesweeper-classic
 link_title: GitHub Repository
-order: 9
+order: 8
 ---
 In 2015 I was playing around with an old laptop, and while playing Minesweeper it occurred to me that it might
 be fun to implement the full game in JavaScript. Over the next few months, on and off, I built this fully-functional
