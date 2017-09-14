@@ -24,7 +24,7 @@ images:
     desc: The game with the help dialog open.
 type: Web Application
 technologies: JavaScript (jQuery), CSS3, HTML5
-link: http://github.com/brandondusseau/minesweeper-classic
+link: https://github.com/brandondusseau/minesweeper-classic
 link_title: GitHub Repository
 order: 8
 ---

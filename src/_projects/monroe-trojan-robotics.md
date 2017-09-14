@@ -9,7 +9,7 @@ images:
     desc: The home page of the website.
 type: Website
 technologies: PHP, XHTML, CSS, JavaScript
-link: http://mtr.brandonjd.net/
+link: //mtr.brandonjd.net/
 link_title: Visit mirror
 order: 2
 ---

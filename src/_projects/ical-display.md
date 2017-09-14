@@ -9,7 +9,7 @@ images:
     desc: Assignments and exams from multiple calendars are displayed, as well as the current date and time.
 type: Web Application
 technologies: JavaScript, PHP, HTML, CSS
-link: http://github.com/brandondusseau/ics-display/
+link: https://github.com/brandondusseau/ics-display/
 link_title: GitHub Repository
 order: 7
 ---

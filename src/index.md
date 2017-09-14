@@ -5,7 +5,7 @@ heading: "Welcome"
 My name is Brandon Dusseau.
 
 I am a professional Software Engineer, currently working as a frontend and backend web developer at
-[Barracuda Networks](http://www.barracuda.com/). I specialize in web technologies at the moment, but I have a passion
+[Barracuda Networks](https://www.barracuda.com/). I specialize in web technologies at the moment, but I have a passion
 for all things programming.
 
 I earned a bachelor's degree in Computer Science from Michigan Technological University in 2015. Despite only being
@@ -16,4 +16,4 @@ JavaScript, and C/C++, among others.
 
 Besides programming, I enjoy several other hobbies including photography, computer repair, video production,
 tinkering with electronics, and most recently biking. If you'd like to see my photography, you can visit my
-[DeviantArt profile](http://turaiel.deviantart.com/).
+[DeviantArt profile](https://turaiel.deviantart.com/).

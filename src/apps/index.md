@@ -26,4 +26,4 @@ conditions&mdash;at least those whose APIs still function. More info on [my port
 
 Almost every personal website project I have ever made. Embarrassing, but we all started somewhere!
 
-[Check it out! &raquo;](http://archive.brandonjd.net/)
+[Check it out! &raquo;](//archive.brandonjd.net/)

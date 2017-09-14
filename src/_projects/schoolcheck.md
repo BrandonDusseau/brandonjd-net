@@ -9,7 +9,7 @@ images:
     desc: The web page displaying the school status and weather data.
 type: Web Application
 technologies: PHP, HTML, CSS
-link: http://www.brandonjd.net/snow/
+link: //www.brandonjd.net/snow/
 link_title: Go to app
 order: 3
 ---

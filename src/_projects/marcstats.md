@@ -33,11 +33,11 @@ images:
     desc: The public match results page.
 type: Web Application
 technologies: PHP, HTML, CSS, JavaScript
-link: http://webapps.mtr.brandonjd.net/marcstats/
+link: //webapps.mtr.brandonjd.net/marcstats/
 link_title: Visit mirror
 order: 6
 ---
-Each year, my old [FIRST Robotics team](http://www.monroetrojanrobotics.com/) holds an off-season competition called the
+Each year, my old FIRST Robotics team holds an off-season competition called the
 Michigan Advanced Robotics Competition. MARCStats is an application that I designed to provide real-time statistics for
 teams at this event. These statistics included current team rankings, match scores, and information about those teams.
 At the same time, the volunteers at the event could take attendance of teams, show alert messages, and input match
