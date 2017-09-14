@@ -33,7 +33,7 @@ images:
     desc: The public match results page.
 type: Web Application
 technologies: PHP, HTML, CSS, JavaScript
-link: //webapps.mtr.brandonjd.net/marcstats/
+link: http://webapps.mtr.brandonjd.net/marcstats/
 link_title: Visit mirror
 order: 6
 ---
