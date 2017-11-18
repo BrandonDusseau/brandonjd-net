@@ -12,7 +12,7 @@ improve my skills every day.
 ## Work Experience ##
 
  * __Software Engineer__<br>
-   _Barracuda Networks &bull; June 2015 &ndash; Present &bull; Ann Arbor, MI_
+   _Barracuda Networks &bull; June 2015 &ndash; November 2017 &bull; Ann Arbor, MI_
    * Added and redesigned core features of the Barracuda Backup product
    * Implemented a PHP-based REST API for new web backend, dramatically increasing efficiency of the product
    * Reviewed code of colleagues and made suggestions to improve efficiency and code style

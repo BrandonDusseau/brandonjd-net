@@ -4,9 +4,7 @@ heading: "Welcome"
 ---
 My name is Brandon Dusseau.
 
-I am a professional Software Engineer, currently working as a frontend and backend web developer at
-[Barracuda Networks](https://www.barracuda.com/). I specialize in web technologies at the moment, but I have a passion
-for all things programming.
+I am a professional Software Engineer, with an interest in a broad array of technologies.
 
 I earned a bachelor's degree in Computer Science from Michigan Technological University in 2015. Despite only being
 in the workforce for a short while, I have been tinkering with code since somewhere around 2006. I've
