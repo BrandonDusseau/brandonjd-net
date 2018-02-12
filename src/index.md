@@ -13,5 +13,4 @@ has been my primary programming language for several years, but I also enjoy dab
 JavaScript, and C/C++, among others.
 
 Besides programming, I enjoy several other hobbies including photography, computer repair, video production,
-tinkering with electronics, and most recently biking. If you'd like to see my photography, you can visit my
-[DeviantArt profile](https://turaiel.deviantart.com/).
+tinkering with electronics, and most recently biking.
