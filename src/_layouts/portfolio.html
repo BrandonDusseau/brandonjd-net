@@ -42,7 +42,7 @@
 							{% endif %}
 
 							{% if project.technologies %}
-							Technologies: {{ project.technologies }}<br>
+							{% for tech in project.technologies %}<div class="project-tech">{{ tech }}</div>{% endfor %}<br>
 							{% endif %}
 
 							{% if project.link %}

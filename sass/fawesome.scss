@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'brandonjd';
-  src: url('../font/brandonjd.eot?85027768');
-  src: url('../font/brandonjd.eot?85027768#iefix') format('embedded-opentype'),
-       url('../font/brandonjd.woff2?85027768') format('woff2'),
-       url('../font/brandonjd.woff?85027768') format('woff'),
-       url('../font/brandonjd.ttf?85027768') format('truetype'),
-       url('../font/brandonjd.svg?85027768#brandonjd') format('svg');
+  src: url('../font/brandonjd.eot?85027769');
+  src: url('../font/brandonjd.eot?85027769#iefix') format('embedded-opentype'),
+       url('../font/brandonjd.woff2?85027769') format('woff2'),
+       url('../font/brandonjd.woff?85027769') format('woff'),
+       url('../font/brandonjd.ttf?85027769') format('truetype'),
+       url('../font/brandonjd.svg?85027769#brandonjd') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -20,3 +20,4 @@
 .icon-linkedin:before { content: '\f0e1'; } /* '' */
 .icon-doc-text-inv:before { content: '\f15c'; } /* '' */
 .icon-bitbucket:before { content: '\f171'; } /* '' */
+.icon-stackoverflow:before { content: '\e800'; } /* '' */
