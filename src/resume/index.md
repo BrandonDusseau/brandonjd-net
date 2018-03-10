@@ -22,7 +22,7 @@ improve my skills every day.
    * Created tools to help automate and decrease turnaround time on customer support escalations
    * Led the effort to rebuild and improve internal documentation of code structure and processes
 
-  * __Software Engineering Intern__<br>
+ * __Software Engineering Intern__<br>
    _Barracuda Networks &bull; May 2014 &ndash; July 2014 &bull; Ann Arbor, MI_
    * Developed and maintained code for the Barracuda Backup user interface and web backend.
 
