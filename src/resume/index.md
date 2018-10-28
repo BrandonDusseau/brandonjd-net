@@ -13,6 +13,11 @@ improve my skills every day.
 ## Work Experience ##
 
  * __Software Engineer__<br>
+   _Quicken Loans &bull; April 2018 - Present &bull; Detroit, MI_
+   * Own and support the system responsible for importing client income and employment data from data vendors
+   * Support cloud infrastructure and CI pipeline for team systems
+
+ * __Software Engineer__<br>
    _Barracuda Networks &bull; June 2015 &ndash; November 2017 &bull; Ann Arbor, MI_
    * Added and redesigned core features of the Barracuda Backup product
    * Implemented a PHP-based REST API for new web backend, dramatically increasing efficiency of the product
@@ -36,10 +41,10 @@ improve my skills every day.
 
  * __PHP &ndash;__ Eight years experience developing websites and web applications (three years professionally). Approximately one year experience using strictly object-oriented PHP.
  * __.NET (C#, VB) &ndash;__ Three years experience with Visual Basic .NET, creating Windows desktop applications for
-  personal use, as well as a couple freelance projects. Less than one year experience with C#, creating Windows desktop
-  applications for personal use and for a university project.
- * __HTML/CSS &ndash;__ Ten years experience with my own websites, freelance projects, and commercial work.
- * __JavaScript &ndash;__  Seven years experience in JS for dynamic web content, including jQuery.
+  personal use, as well as a couple freelance projects. One year experience with C#, creating Windows desktop
+  applications for personal use and for a university project, and developing ASP.NET APIs and backend systems on the job.
+ * __HTML/CSS &ndash;__ Eleven years experience with my own websites, freelance projects, and commercial work.
+ * __JavaScript &ndash;__ Eight years experience in JS for dynamic web content, including jQuery.
  * __C++ &ndash;__ Some experience applying concurrency concepts and writing basic operating system
  components as part of university curriculum.
  * __C &ndash;__ Experience writing Linux systems programs as part of university curriculum.
