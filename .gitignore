@@ -9,6 +9,7 @@ public/*
 # Compiled CSS and JS
 src/css/*
 src/js/*.min*
+!src/js/lightbox*.min.js
 
 # Caches
 .sass-cache
