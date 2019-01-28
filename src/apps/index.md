@@ -13,15 +13,6 @@ A fully-functional clone of the version of Microsoft Minesweeper bundled with Wi
 
 <hr>
 
-## SchoolCheck
-
-Displays the current closure status of my hometown school district, Monroe Public Schools. Also shows current weather
-conditions&mdash;at least those whose APIs still function. More info on [my portfolio](/portfolio#schoolcheck).
-
-[Check the weather! &raquo;](/snow)
-
-<hr>
-
 ## Website Archive
 
 Almost every personal website project I have ever made. Embarrassing, but we all started somewhere!

@@ -9,8 +9,6 @@ images:
     desc: The web page displaying the school status and weather data.
 type: Web Application
 technologies: ["PHP", "HTML", "CSS"]
-link: //www.brandonjd.net/snow/
-link_title: Go to app
 order: 3
 ---
 While I was in high school, I grew tired of checking multiple sources to check
