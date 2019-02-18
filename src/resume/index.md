@@ -40,7 +40,7 @@ _If you prefer, you can [download a PDF](/files/resume.pdf) of my resume. Check 
  _For examples of my projects, please [see my portfolio](/portfolio)._
 
  * __Web Technologies &ndash;__ HTML5, CSS3, JavaScript, jQuery, SASS, Grunt, Gulp, Jekyll, Apache, Nginx
- * __Scripting Languages &ndash;__ PHP, Python, Bash
+ * __Scripting Languages &ndash;__ PHP, Bash, some experience in Python
  * __Application Languages &ndash;__ C#, Java, Visual Basic, (.NET/VBA/VB6), some experience in C and C++
  * __Data Storage &ndash;__ MySQL, PostgreSQL, MongoDB, Redis, Memcache
  * __Cloud Technologies &ndash;__ AWS (CodeDeploy, DynamoDB, EC2, Elastic Beanstalk, S3, SQS), Digital Ocean
