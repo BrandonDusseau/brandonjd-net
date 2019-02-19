@@ -10,6 +10,7 @@ _If you prefer, you can [download a PDF](/files/resume.pdf) of my resume. Check 
 
  * __Quicken Loans &bull; Software Engineer__<br>
    _April 2018 - Present &bull; Detroit, MI_
+   <div class="tech-container"><span class="project-tech">C# (.NET Framework and Core)</span><span class="project-tech">ASP.NET</span><span class="project-tech">Python</span><span class="project-tech">Team Foundation Server</span><span class="project-tech">AWS</span><span class="project-tech">Terraform</span><span class="project-tech">Windows</span></div>
    * Own and support the system responsible for importing client income and employment data from data vendors
    * Support cloud infrastructure and CI pipeline for team systems
    * Maintained system that fetches and processes client financial data for use by other systems
@@ -20,6 +21,7 @@ _If you prefer, you can [download a PDF](/files/resume.pdf) of my resume. Check 
 
  * __Barracuda Networks &bull; Software Engineer__<br>
    _June 2015 &ndash; November 2017 &bull; Ann Arbor, MI_
+   <div class="tech-container"><span class="project-tech">PHP</span><span class="project-tech">HTML</span><span class="project-tech">CSS</span><span class="project-tech">JS</span><span class="project-tech">NGINX</span><span class="project-tech">Puppet</span><span class="project-tech">Linux (Gentoo)</span><span class="project-tech">macOS</span></div>
    * Added and redesigned core features of the Barracuda Backup product
    * Implemented REST API for new web backend to overhaul and improve user experience
    * Assisted in management of server configurations utilizing Puppet
@@ -29,17 +31,19 @@ _If you prefer, you can [download a PDF](/files/resume.pdf) of my resume. Check 
 
  * __Barracuda Networks &bull; Software Engineering Intern__<br>
    _May 2014 &ndash; July 2014 &bull; Ann Arbor, MI_
+   <div class="tech-container"><span class="project-tech">PHP</span><span class="project-tech">HTML</span><span class="project-tech">CSS</span><span class="project-tech">JS</span><span class="project-tech">macOS</span></div>
    * Developed and maintained code for the Barracuda Backup user interface and web backend.
 
  * __Trinity Innovations &bull; Mobile App Server-Side Developer__<br>
    _December 2011 &ndash; November 2012 &bull; Houghton, MI_
+   <div class="tech-container"><span class="project-tech">PHP</span></div>
    * Developed and maintained server-side API and background operations for an [iOS mobile app](/portfolio#gluten-free-shopping).
 
 ## Skills ##
 
  _For examples of my projects, please [see my portfolio](/portfolio)._
 
- * __Web Technologies &ndash;__ HTML5, CSS3, JavaScript, jQuery, SASS, Grunt, Gulp, Jekyll, Apache, Nginx
+ * __Web Technologies &ndash;__ HTML5, CSS3, JavaScript, jQuery, SASS, Grunt, Gulp, Jekyll, Apache, NGINX
  * __Scripting Languages &ndash;__ PHP, Bash, some experience in Python
  * __Application Languages &ndash;__ C#, Java, Visual Basic, (.NET/VBA/VB6), some experience in C and C++
  * __Data Storage &ndash;__ MySQL, PostgreSQL, MongoDB, Redis, Memcache

@@ -56,6 +56,7 @@ main {
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: center;
+	align-items: stretch;
 	margin: auto;
 	min-height: 100%;
 }
@@ -118,7 +119,7 @@ aside.sidebar {
 article {
 	flex: 0 1 auto;
 	font-family: $fonts-serif;
-	width: 45rem;
+	max-width: 45rem;
 	margin-top: 2.5rem;
 	padding: 0 2.4rem;
 	padding-bottom: 2.5rem;
@@ -199,6 +200,20 @@ article {
 		color: #2d97c0;
 	}
 
+	.tech-container {
+		margin-left: -3px;
+		margin-top: 5px;
+	}
+
+	.project-tech {
+		display: inline-block;
+		padding: 2px 6px;
+		font-size: 0.8em;
+		margin: 3px 5px 3px 0;
+		background-color: #126EB3;
+		color: #fff;
+	}
+
 	.project-section {
 		h2 {
 			margin-top: 0;
@@ -232,17 +247,8 @@ article {
 				}
 			}
 
-			.project-tech {
-				display: inline-block;
-				padding: 2px 6px;
-				font-size: 0.8em;
-				margin: 3px 3px 3px 0;
-				background-color: #126EB3;
-				color: #fff;
-			}
-
 			.project-heading-text {
-				flex: 0 0 auto;
+				flex: 0 1 auto;
 
 				h2 {
 					margin-bottom: 0.6rem;
@@ -267,22 +273,30 @@ article {
 	}
 }
 
-@media screen and (max-width: 840px) {
-	aside.sidebar {
-		flex-basis: 60px;
-		max-width: 60px;
+@media only screen and (max-device-width: 760px) {
+	main {
+		justify-content: flex-start;
+	}
+
+	article {
+		font-size: 0.75em;
 		padding: 0 1rem;
+		margin-top: 1.5rem;
+	}
+
+	aside.sidebar {
+		flex-basis: 3rem;
+		padding: 0 0.5rem;
 		padding-top: 1rem;
 		text-align: center;
 		overflow: visible;
 
 		.sidebar-fixed {
-			position: fixed;
 		}
 
 		.home-banner img {
-			height: 60px;
-			width: 60px;
+			height: 2.5rem;
+			width: 2.5rem;
 		}
 
 		.sidebar-title {
@@ -312,30 +326,6 @@ article {
 				a:link, a:visited {
 					color: #004f6d;
 					display: block;
-				}
-			}
-
-			li:hover {
-				background: #004f6d;
-				padding: 0.3rem;
-				padding-bottom: 0.2rem;
-				margin: -0.3rem;
-				margin-right: 0;
-				margin-bottom: 0.8rem;
-				overflow: visible;
-				border-radius: 5px;
-				display: inline-block;
-				max-width: 300px;
-				transition: max-width 0.1s ease-in;
-
-				a {
-					display: block;
-					visibility: visible;
-					color: #FFF;
-				}
-
-				a:before {
-					margin-right: 0.3em;
 				}
 			}
 
