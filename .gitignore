@@ -13,3 +13,4 @@ src/js/*.min*
 
 # Caches
 .sass-cache
+.jekyll-cache
