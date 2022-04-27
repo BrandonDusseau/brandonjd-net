@@ -40,7 +40,6 @@ a[href*="//"]:not([href*="brandonjd.net"]):after
 	font-family: "brandonjd";
 	font-style: normal;
 	font-weight: normal;
-	speak: none;
 	display: inline-block;
 	text-decoration: inherit;
 	width: 1em;
@@ -242,7 +241,6 @@ article {
 
 			a.project-heading-preview {
 				flex: 0 0 auto;
-				display: inline-block;
 				float: left;
 				margin-right: 0.8rem;
 
@@ -297,9 +295,6 @@ article {
 		padding-top: 1rem;
 		text-align: center;
 		overflow: visible;
-
-		.sidebar-fixed {
-		}
 
 		.home-banner img {
 			height: 2.5rem;
