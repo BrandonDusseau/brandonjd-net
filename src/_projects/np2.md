@@ -13,7 +13,7 @@ images:
   -
     file: np2/ended_game.jpg
     desc: An ended game, displayed on a real monitor.
-type: Website
+type: Web Application
 technologies: ["PHP", "JS", "HTML", "CSS"]
 link: https://github.com/BrandonDusseau/np2-wallboard
 link_title: GitHub Repository

@@ -27,6 +27,13 @@ u {
 	text-decoration: underline;
 }
 
+.warning {
+	margin-bottom: 1rem;
+	padding: 1rem;
+	border-radius: 5px;
+	background-color: #ffc107;
+}
+
 [class^="icon-"]:before, [class*=" icon-"]:before,
 a[href*="//"]:not([href*="brandonjd.net"]):after
 {

@@ -22,7 +22,7 @@ type: Website
 technologies: ["HTML", "CSS", "Jekyll", "JS", "PHP (formerly)"]
 link: http://twokinds.keenspot.com
 link_title: Visit website
-order: 12
+order: 14
 ---
 In 2010 I began working with the author of the Twokinds webcomic to make
 improvements to the existing website. Shortly after, a publishing deal was made,
