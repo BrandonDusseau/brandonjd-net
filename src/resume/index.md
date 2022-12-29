@@ -10,8 +10,16 @@ _If you prefer, you can [download a PDF](/files/resume.pdf) of my resume. Check 
 
 ## Work Experience ##
 
+ * __Barracuda Networks &bull; Senior Software Engineer__<br>
+   _September 2022 - Present &bull; Ann Arbor, MI_
+   <div class="tech-container"><span class="project-tech">C# (.NET 6+)</span><span class="project-tech">Golang</span><span class="project-tech">Protobuf</span><span class="project-tech">Azure DevOps</span><span class="project-tech">Azure Cloud</span><span class="project-tech">GitHub Actions</span><span class="project-tech">Terraform</span><span class="project-tech">macOS</span><span class="project-tech">Linux</span></div>
+   * Developed for Cloud-to-Cloud Backup product
+   * Assisted in development of backing storage migration projected to save thousands of dollars
+   * Built application to aggregate analytics data to support business inquiries
+   * Co-authored documentation to significantly decrease ramp-up time for new developers
+
  * __Rocket Central (formerly Rocket Mortgage/Quicken Loans) &bull; Software Engineer__<br>
-   _April 2018 - Present &bull; Detroit, MI_
+   _April 2018 - September 2022 &bull; Detroit, MI_
    <div class="tech-container"><span class="project-tech">C# (.NET Framework/Core/5/6)</span><span class="project-tech">ASP.NET (Fx/Core)</span><span class="project-tech">Python</span><span class="project-tech">Azure DevOps</span><span class="project-tech">AWS</span><span class="project-tech">Terraform</span><span class="project-tech">CircleCI</span><span class="project-tech">Snyk</span><span class="project-tech">SonarQube</span><span class="project-tech">Grafana</span><span class="project-tech">Splunk</span><span class="project-tech">OAuth (Ping Federate, Auth0)</span><span class="project-tech">Windows</span></div>
    * Maintained system that fetches and processes client financial data for use by other systems
    * Saved over $1 million per year by identifying and correcting software inefficiency
@@ -32,29 +40,22 @@ _If you prefer, you can [download a PDF](/files/resume.pdf) of my resume. Check 
    * Created tools to help automate and decrease turnaround time on customer support escalations
    * Led the effort to rebuild and improve internal documentation of code structure and processes
 
- * __Trinity Innovations &bull; Mobile App Server-Side Developer__<br>
-   _December 2011 &ndash; November 2012 &bull; Houghton, MI_
-   <div class="tech-container"><span class="project-tech">PHP</span></div>
-   * Developed and maintained server-side API and background operations for an [iOS mobile app](/portfolio#gluten-free-shopping).
-
 ## Skills ##
 
  _For examples of my projects, please [see my portfolio](/portfolio)._
 
  * __Web Technologies &ndash;__ HTML5, CSS3, JavaScript, Laravel 8/9, Jekyll, Vue 3, Bootstrap 5, jQuery, SASS, Grunt, Gulp, Apache, Nginx
- * __Desktop Languages &ndash;__ C# (.NET Framework/Core/5/6), PHP, Python, Bash (plus some experience with Java, C, and C++, and Visual Basic)
- * __Data Storage &ndash;__ MySQL, PostgreSQL, MongoDB, DynamoDB (plus some experience with MS SQL)
- * __Cloud Technologies &ndash;__ AWS, Terraform
+ * __Desktop Languages &ndash;__ C# (.NET Framework/Core/5+), PHP, Python, Bash (plus some experience with Java, C, and C++, and Visual Basic)
+ * __Data Storage &ndash;__ MySQL, PostgreSQL, MongoDB, DynamoDB, CosmosDB, Azure Blob, Azure Data Explorer (plus some experience with MS SQL)
+ * __Cloud Technologies &ndash;__ AWS, Azure Cloud, Terraform
  * __Operating Systems &ndash;__ Linux (Debian- and Fedora-based, some experience with Arch and Gentoo), macOS, Windows
- * __System Administration &ndash;__ Linux CLI proficiency, Puppet, server configuration, networking
+ * __System Administration &ndash;__ Linux CLI proficiency, Puppet, general server configuration, general networking
  * __Network Management &ndash;__ DNS, Firewalls, IPv4 NAT, UniFi, OpenWRT
- * __Virtualization/Containers &ndash;__ Docker, VMware, VirtualBox, Vagrant
+ * __Virtualization/Containers &ndash;__ Kubernetes, Docker, VMware, VirtualBox, Vagrant
  * __Version Control/Issue Tracking &ndash;__ Git (general), Azure DevOps, JIRA, GitHub Enterprise, Bitbucket Server (plus some experience with SVN and Mercurial)
- * __CI/CD &ndash;__ Travis CI, CircleCI 2/3, Azure DevOps, SonarQube, Snyk, Code Climate
+ * __CI/CD &ndash;__ GitHub Actions, Travis CI, CircleCI 2/3, Azure DevOps Pipelines, SonarQube, Snyk, Code Climate
 
 ## Education ##
 
  * __Michigan Technological University &bull; August 2011 &ndash; May 2015__<br>
-   B.S. Computer Science, Cum Laude<br>
-	 Departmental GPA: 3.72<br>
-	 Cumulative GPA: 3.68
+   B.S. Computer Science, Cum Laude
