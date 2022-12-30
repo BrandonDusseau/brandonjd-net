@@ -3,10 +3,9 @@ layout: page
 title: Resume
 heading: Brandon J. Dusseau
 ---
-<div class="warning"><b>I do not provide freelance services.</b> If you have contracted with a freelancer using my name and likeness, you have been scammed!</div>
+<div class="warning"><b>I do not provide freelance services.</b> If you have contracted with a freelancer using my name and likeness, you have been defrauded!</div>
 
-_If you prefer, you can [download a PDF](/files/resume.pdf) of my resume. Check out my [portfolio page](/portfolio/)
- for a list of some of my projects._
+_Check out my [portfolio page](/portfolio/) for a list of some of my projects._
 
 ## Work Experience ##
 
