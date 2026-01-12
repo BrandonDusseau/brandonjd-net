@@ -3,13 +3,17 @@ Thumbs.db
 Desktop.ini
 .DS_Store
 
-# Hugo generated files
+# Jekyll generated files
 public/*
 
 # Compiled CSS and JS
 src/css/*
 src/js/*.min*
 !src/js/lightbox*.min.js
+
+# Google fonts
+src/fonts/*
+!src/fonts/brandonjd*
 
 # Caches
 .sass-cache

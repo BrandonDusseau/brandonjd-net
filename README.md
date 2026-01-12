@@ -4,3 +4,10 @@ This repository contains the source code for my current website. It is meant pri
 of my web work, but feel free to use components of it in your own work.
 
 This project is licensed under the MIT License.
+
+## Building
+
+```
+bundle exec compass compile
+bundle exec jekyll build
+```
